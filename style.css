@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #fafafa;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+  }
+
+  .flxbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    height: auto;
+    padding: 50px;
+  }
+
+  .container {
+    width: 1122px;
+  }
+
+  .hero-content h1 {
+    font-weight: 200;
+    color: hsl(212, 6%, 44%);
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .hero-content h1 b {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+  }
+
+  .hero-content p {
+    text-align: center;
+    width: 100%;
+    padding: 10px 300px;
+    color: hsl(212, 6%, 44%);
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+
+  .feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .feature-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature-container {
+    padding: 30px 40px;
+    box-shadow: 0px 12px 25px hsla(213, 24%, 67%, 0.445);
+    border-radius: 8px;
+    border-top: 4px solid rgb(131, 131, 131);
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+  }
+
+  .feature2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+  }
+
+  .feature3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+  }
+
+  .feature4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+  }
+
+  .feature-container h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 8px;
+  }
+
+  .feature-container p {
+    color: hsl(212, 6%, 44%);
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  .feature-container img {
+    width: 50px;
+    align-self: flex-end;
+  }
+
+  footer {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px -5px 20px hsla(213, 24%, 67%, 0.445);
+    margin-top: 30px;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      height: auto;
+      padding: 50px 0px;
+    }
+
+    .container {
+      width: 80%;
+    }
+
+    .feature-section {
+      flex-direction: column;
+    }
+
+    .feature-container {
+      width: 100%;
+    }
+
+    .hero-content h1 {
+      font-weight: 200;
+      line-height: 2rem;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .hero-content p {
+      padding: 0px;
+      font-size: 14px;
+    }
+  }
